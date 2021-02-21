@@ -25,8 +25,7 @@ server that uses socket.io
 
 ## BUILT WITH
 
--Node
-
+- Node
 - Express
 - Socket.io
 - Websocket
