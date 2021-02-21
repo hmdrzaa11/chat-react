@@ -13,6 +13,8 @@ and then send a welcome message by admin and has total users count
 in the info bar and able to handle emojis and auto scroll to bottom and connects to a express
 server that uses socket.io
 
+### [Live Demo](https://admiring-poitras-1a7b70.netlify.app/)
+
 ---
 
 ## INSTALLING
