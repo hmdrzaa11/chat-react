@@ -8,7 +8,9 @@ export default function InfoBar({ room, allUsers }) {
     <div className="InfoBar">
       <div className="InfoBar-room">
         <p>{room}</p>
-        <p className="InfoBar-total">Online : {allUsers.length}</p>
+        <p className="InfoBar-total">
+          Online : {allUsers.length ? allUsers.length : "Loading..."}
+        </p>
       </div>
 
       <Link to="/">
