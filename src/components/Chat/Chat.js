@@ -31,7 +31,7 @@ export default function Chat(props) {
     socket = io("https://chat-server-react-app.herokuapp.com/");
 >>>>>>> dev
 =======
-    socket = io("https://admiring-poitras-1a7b70.netlify.app/");
+    socket = io("https://chat-server-react-app.herokuapp.com/");
 >>>>>>> dev
     socket.emit("join", { name, room }, (error) => {
       if (error) {
