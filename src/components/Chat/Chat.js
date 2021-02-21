@@ -24,10 +24,14 @@ export default function Chat(props) {
     setName(name);
     setRoom(room);
 <<<<<<< HEAD
+<<<<<<< HEAD
     socket = io("https://chat-server-react-app.herokuapp.com/");
 
 =======
     socket = io("https://chat-server-react-app.herokuapp.com/");
+>>>>>>> dev
+=======
+    socket = io("https://admiring-poitras-1a7b70.netlify.app/");
 >>>>>>> dev
     socket.emit("join", { name, room }, (error) => {
       if (error) {
