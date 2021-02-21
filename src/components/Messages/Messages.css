@@ -1,0 +1,15 @@
+.Messages {
+  color: var(--color-dark-violet);
+  height: 80%;
+  font-weight: 500;
+}
+
+.Messages-wrapper {
+  height: 100%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.Messages-wrapper::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,14 @@
+.Chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 4rem;
+}
+
+.Chat-wrapper {
+  background-color: white;
+  width: 45%;
+  height: 80%;
+  position: relative;
+}

@@ -1,0 +1,25 @@
+.InfoBar {
+  height: 6rem;
+  background-color: var(--color-dark-blue);
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.InfoBar-room {
+  margin-right: auto;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.InfoBar-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+.InfoBar-total {
+  font-size: 1rem;
+  color: gold;
+  font-weight: 400;
+}

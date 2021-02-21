@@ -1,0 +1,17 @@
+.Input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Input-input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-family: inherit;
+  letter-spacing: 0.5rem;
+  outline: none;
+  border: none;
+  border: 1px solid var(--color-dark-blue);
+  border-width: 1px 0 0 0;
+  font-weight: 500;
+}
