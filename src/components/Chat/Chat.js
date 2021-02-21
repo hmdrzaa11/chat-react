@@ -20,7 +20,7 @@ export default function Chat(props) {
     let { name, room } = queryString.parse(location.search);
     setName(name);
     setRoom(room);
-    socket = io("http://localhost:8000/");
+    socket = io("https://admiring-poitras-1a7b70.netlify.app/");
     socket.emit("join", { name, room }, (error) => {
       if (error) {
         alert(error);
