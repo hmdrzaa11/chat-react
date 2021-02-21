@@ -4,7 +4,6 @@ import closeIcon from "../../icons/iconfinder_icon-close_211652.svg";
 import { Link } from "react-router-dom";
 
 export default function InfoBar({ room, allUsers }) {
-  console.log(allUsers);
   return (
     <div className="InfoBar">
       <div className="InfoBar-room">

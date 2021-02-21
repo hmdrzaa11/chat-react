@@ -15,13 +15,14 @@ export default function Chat(props) {
   let [messages, setMessages] = useState([]);
   let [message, setMessage] = useState("");
   let [allUsers, setAllUsers] = useState([]);
-
+  let [loading, setLoading] = useState(false);
   useEffect(() => {
+    setLoading(true);
     let { name, room } = queryString.parse(location.search);
     setName(name);
     setRoom(room);
     socket = io("https://chat-server-react-app.herokuapp.com/");
-
+    setLoading(false);
     socket.emit("join", { name, room }, (error) => {
       if (error) {
         alert(error);
@@ -51,6 +52,7 @@ export default function Chat(props) {
       }
     }
   };
+  console.log(loading);
   return (
     <div className="Chat">
       <div className="Chat-wrapper">
