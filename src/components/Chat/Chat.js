@@ -15,12 +15,20 @@ export default function Chat(props) {
   let [messages, setMessages] = useState([]);
   let [message, setMessage] = useState("");
   let [allUsers, setAllUsers] = useState([]);
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
   useEffect(() => {
     let { name, room } = queryString.parse(location.search);
     setName(name);
     setRoom(room);
+<<<<<<< HEAD
     socket = io("https://chat-server-react-app.herokuapp.com/");
 
+=======
+    socket = io("https://chat-server-react-app.herokuapp.com/");
+>>>>>>> dev
     socket.emit("join", { name, room }, (error) => {
       if (error) {
         alert(error);
@@ -50,7 +58,10 @@ export default function Chat(props) {
       }
     }
   };
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
   return (
     <div className="Chat">
       <div className="Chat-wrapper">
